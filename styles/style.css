@@ -1,0 +1,31 @@
+.pahlawan {
+  display: grid;
+  width: 100%;
+  place-items: center;
+  background-size: cover;
+  background-position: center;
+}
+.pahlawan > * {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.pahlawan-isi {
+  z-index: 0;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  gap: 1rem /* 16px */;
+  padding: 1rem /* 16px */;
+}
+
+.elementor-1086
+  .elementor-element.elementor-element-e0503ea
+  > .elementor-shape-bottom
+  svg {
+  height: 60px;
+}
+
+.grid.gap-7.grid-cols-6.grid-rows-5.max-w-2xl {
+  height: 600px;
+}
