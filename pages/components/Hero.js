@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="hero-overlay bg-opacity-40"></div>
         <div className="pahlawan-isi text-left text-neutral-content">
           <div className="max-w-xl text-white md:text-2xl">
-            <p className="mb-2 text-left">Together We Strong</p>
+            <p className="mb-2 text-left">Lorem, ipsum dolor.</p>
             <p className="mb-3 text-left text-6xl font-bold">Hello World</p>
             <p className="mb-2 text-left">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eum
@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
       </div>
       <div
-        className="elementor-shape elementor-shape-bottom -mt-9 md:-mt-20 fill-white"
+        className="elementor-shape elementor-shape-bottom -mt-9 md:-mt-16 fill-white"
         data-negative="true"
       >
         {" "}
@@ -28,7 +28,7 @@ const Hero = () => {
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1000 100"
           preserveAspectRatio="none"
-          className="h-10 md:h-20 w-full"
+          className="h-10 md:h-16 w-full"
         >
           {" "}
           <path
