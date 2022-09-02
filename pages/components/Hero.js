@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
       </div>
       <div
-        className="elementor-shape elementor-shape-bottom -mt-9 md:-mt-16 fill-white"
+        className="elementor-shape elementor-shape-bottom -mt-9 md:-mt-16"
         data-negative="true"
       >
         {" "}
@@ -32,7 +32,7 @@ const Hero = () => {
         >
           {" "}
           <path
-            className="elementor-shape-fill fill-white"
+            className="elementor-shape-fill dark:fill-slate-700"
             d="M737.9,94.7L0,0v100h1000V0L737.9,94.7z"
           ></path>{" "}
         </svg>

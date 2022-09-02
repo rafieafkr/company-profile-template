@@ -19,7 +19,7 @@ const Footer = () => {
             <p className="footer-title font-bold "> Alamat </p>
             <a className="link link-hover">
               {" "}
-              Jl. Go to Hell No.288 17145 KayuJati California{" "}
+              Jl. Go to Hell No.288 17145 Kayu Jati California{" "}
             </a>
           </div>
           {/* sosmed */}
