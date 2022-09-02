@@ -38,10 +38,10 @@ const Layanan = () => {
           </p>
         </div>
         <div className="px-5 w-full md:grid md:grid-cols-2 md:grid-rows-1">
-          <div className="grid md:gap-7 md:grid-cols-6 md:grid-rows-5 max-w-2xl">
+          <div className="grid md:gap-7 md:grid-cols-6 md:grid-rows-2 max-w-2xl">
             <div
               id="card"
-              className="mb-5 md:mb-0 max-w-full px-7 py-6 shadow-2xl bg-white col-span-3 row-span-3 rounded-lg"
+              className="mb-5 md:mb-0 max-w-full h-fit px-7 py-6 shadow-2xl bg-white col-span-3 rounded-lg"
             >
               <div className="w-full h-16 mb-2 bg-amber-300 rounded-full flex justify-center">
                 <div className="bg-white mt-1 w-14 h-14 rounded-full flex justify-center">
@@ -71,7 +71,7 @@ const Layanan = () => {
             </div>
             <div
               id="card"
-              className="mb-5 md:mb-0 max-w-full px-7 py-6 shadow-2xl bg-white col-span-3 row-span-2 rounded-lg"
+              className="mb-5 md:mb-0 max-w-full h-fit px-7 py-6 shadow-2xl bg-white col-span-3 rounded-lg"
             >
               <div className="w-full h-16 mb-2 bg-amber-300 rounded-full flex justify-center">
                 <div className="bg-white mt-1 w-14 h-14 rounded-full flex justify-center">
@@ -95,13 +95,14 @@ const Layanan = () => {
                 <p className="text-slate-500">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Dolore facere assumenda, laborum fuga doloribus inventore
-                  incidunt a iusto ad accusamus?
+                  incidunt a iusto ad accusamus? Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Vitae corrupti aut quibusdam?
                 </p>
               </div>
             </div>
             <div
               id="card"
-              className="mb-5 md:mb-0 max-w-full px-7 py-6 shadow-2xl bg-white col-span-3 row-span-3 rounded-lg"
+              className="mb-5 h-fit md:mb-0 max-w-full px-7 py-6 shadow-2xl bg-white col-span-3 row-span-3 rounded-lg"
             >
               <div className="w-full h-16 mb-2 bg-amber-300 rounded-full flex justify-center">
                 <div className="bg-white mt-1 w-14 h-14 rounded-full flex justify-center">
@@ -131,7 +132,7 @@ const Layanan = () => {
             </div>
             <div
               id="card"
-              className="max-w-full px-7 py-6 shadow-2xl bg-white col-span-3 row-span-2 rounded-lg"
+              className="max-w-full h-fit px-7 py-6 shadow-2xl bg-white col-span-3 row-span-2 rounded-lg"
             >
               <div className="w-full h-16 mb-2 bg-amber-300 rounded-full flex justify-center">
                 <div className="bg-white mt-1 w-14 h-14 rounded-full flex justify-center">
