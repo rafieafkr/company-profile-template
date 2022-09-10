@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Layanan = () => {
   return (
-    <div>
+    <div className="dark: bg-slate-700">
       {/* Intro Section */}
       <div className="hero h-screen md:h-auto md:mb-5 px-5 md:p-20">
         <div className="hero-content -mt-24 flex-col justfify-center lg:flex-row">
@@ -29,7 +29,7 @@ const Layanan = () => {
       </div>
 
       {/* Layanan */}
-      <div className="mb-10 px-5">
+      <div className="pb-10 px-5">
         <div className="text-center mb-6">
           <h1 className="w-full text-5xl font-bold pb-3">Layanan</h1>
           <p className="font-light">
