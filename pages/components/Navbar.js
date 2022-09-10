@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="navbar w-full bg-white dark: bg-slate-700">
+    <div className="navbar w-full h-20 bg-white dark:bg-slate-700">
       <div className="justify-items-center text-center bg-black-1000">
         <div className="dropdown">
           <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -26,11 +26,14 @@ const Navbar = () => {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Item 1</a>
+              <a href="#layanan">Layanan</a>
+            </li>
+            <li>
+              <a href="#gallery">Gallery Perusahaan</a>
             </li>
             <li tabIndex="0">
               <a className="justify-between">
-                Parent
+                Sosial Media
                 <svg
                   className="fill-current"
                   xmlns="http://www.w3.org/2000/svg"
@@ -43,28 +46,36 @@ const Navbar = () => {
               </a>
               <ul className="p-2 bg-white">
                 <li>
-                  <a>Submenu 1</a>
+                  <a>Instagram</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a>Facebook</a>
+                </li>
+                <li>
+                  <a>LinkedIn</a>
                 </li>
               </ul>
             </li>
             <li>
-              <a>Item 3</a>
+              <a href="">Kontak</a>
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl hover:bg-white">LOREM IPSUM</a>
+        <a className="btn btn-ghost text-black ext-xl bg-amber-300 hover:bg-white">
+          LOREM IPSUM
+        </a>
       </div>
       <div className="navbar-end hidden w-full lg:flex md:flex-end">
         <ul className="menu menu-horizontal p-0">
           <li>
-            <a>Item 1</a>
+            <a href="#layanan">Layanan</a>
+          </li>
+          <li>
+            <a href="#gallery">Gallery Perusahaan</a>
           </li>
           <li tabIndex="0">
             <a>
-              Parent
+              Sosial Media
               <svg
                 className="fill-current"
                 xmlns="http://www.w3.org/2000/svg"
@@ -77,15 +88,21 @@ const Navbar = () => {
             </a>
             <ul className="p-2 bg-white">
               <li>
-                <a>Submenu 1</a>
+                <a>Instagram</a>
               </li>
               <li>
-                <a>Submenu 2</a>
+                <a>Facebook</a>
+              </li>
+              <li>
+                <a>LinkedIn</a>
               </li>
             </ul>
           </li>
           <li>
-            <a>Item 3</a>
+            <a href="#footer">Kontak</a>
+          </li>
+          <li>
+            <a href="#berita">Berita</a>
           </li>
         </ul>
       </div>
