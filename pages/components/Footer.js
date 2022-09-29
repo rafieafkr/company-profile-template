@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
+    <div id="footer">
       <div className="bg-gray-500">
         {/* judul footer */}
         <div className="max-w-3xl mx-auto"></div>
@@ -90,7 +90,7 @@ const Footer = () => {
       <div>
         {/* copyright */}
         <p className="text-center bg-gray-400 text-gray-50 py-5">
-          &copy; Copyright Raja satir LSP
+          &copy; Copyright Kelompok 6
         </p>
       </div>
     </div>

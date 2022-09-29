@@ -32,7 +32,7 @@ const Hero = () => {
         >
           {" "}
           <path
-            className="elementor-shape-fill dark:fill-slate-700"
+            className="elementor-shape-fill fill-white dark:fill-slate-700"
             d="M737.9,94.7L0,0v100h1000V0L737.9,94.7z"
           ></path>{" "}
         </svg>

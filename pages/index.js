@@ -2,6 +2,8 @@ import Head from "next/head";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Layanan from "./components/Layanan";
+import Gallery from "./components/Gallery";
+import Berita from "./components/Berita";
 import Navbar from "./components/Navbar";
 
 export default function Home() {
@@ -13,6 +15,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Layanan />
+      <Gallery />
+      <Berita />
       <Footer />
     </>
   );
