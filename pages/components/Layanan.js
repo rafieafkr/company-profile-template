@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const Layanan = () => {
   return (
-    <div className="bg-white dark:bg-slate-700" id="layanan">
+    <div className="bg-white dark:bg-slate-700">
       {/* Intro Section */}
-      <div className="hero h-screen md:h-auto px-5 md:pt-20 md:pr-20 md:pl-20 md:pb-5">
+      <div className="hero md:h-auto px-5 md:pt-20 md:pr-20 md:pl-20 md:pb-5">
         <div className="hero-content -mt-24 flex-col justfify-center lg:flex-row">
           <Image
             src="https://placeimg.com/500/300/arch"
@@ -29,7 +29,7 @@ const Layanan = () => {
       </div>
 
       {/* Layanan */}
-      <div className="pb-10 px-5">
+      <div className="pt-20 px-5" id="layanan">
         <div className="text-center mb-6">
           <h1 className="w-full text-5xl font-bold pb-3">Layanan</h1>
           <p className="font-light">
