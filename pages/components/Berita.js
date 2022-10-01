@@ -1,9 +1,9 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/future/image";
 
 const Berita = () => {
   return (
-    <div className="pt-20 px-5 bg-white dark:bg-slate-700" id="berita">
+    <div className="py-20 px-5 bg-white dark:bg-slate-700" id="berita">
       <div className="text-center mb-6">
         <h1 className="w-full text-5xl font-bold pb-3">Berita Acara</h1>
         <p className="font-light">
@@ -12,16 +12,15 @@ const Berita = () => {
         </p>
       </div>
       <div className="flex flex-wrap justify-center lg:grid lg:grid-cols-2">
-        <div className="w-full p-4">
+        <div className="w-full p-2">
           <div className="card lg:card-side bg-white shadow-xl">
-            <figure>
-              <Image
-                src="https://placeimg.com/300/250/arch"
-                alt="Album"
-                width={300}
-                height={250}
-              />
-            </figure>
+            <Image
+              src="https://placeimg.com/300/250/arch"
+              alt="Album"
+              className="rounded-md mt-6 lg:mt-0 lg:rounded-none"
+              width={300}
+              height={250}
+            />
             <div className="card-body">
               <h2 className="card-title">Lorem</h2>
               <p>
@@ -29,22 +28,23 @@ const Berita = () => {
                 labore asperiores quibusdam quas. Quo, porro!
               </p>
               <div className="card-actions justify-end">
-                <button className="btn bg-amber-300 text-black">More</button>
+                <button className="btn text-black bg-amber-300  border-amber-300 hover:bg-amber-400 hover:border-amber-300">
+                  Lihat
+                </button>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="w-full p-4">
+        <div className="w-full p-2">
           <div className="card lg:card-side bg-white shadow-xl">
-            <figure>
-              <Image
-                src="https://placeimg.com/300/250/arch"
-                alt="Album"
-                width={300}
-                height={250}
-              />
-            </figure>
+            <Image
+              src="https://placeimg.com/300/250/arch"
+              alt="Album"
+              className="rounded-md mt-6 lg:mt-0 lg:rounded-none"
+              width={300}
+              height={250}
+            />
             <div className="card-body">
               <h2 className="card-title">Lorem</h2>
               <p>
@@ -52,22 +52,23 @@ const Berita = () => {
                 labore asperiores quibusdam quas. Quo, porro!
               </p>
               <div className="card-actions justify-end">
-                <button className="btn bg-amber-300 text-black">More</button>
+                <button className="btn text-black bg-amber-300  border-amber-300 hover:bg-amber-400 hover:border-amber-300">
+                  Lihat
+                </button>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="w-full p-4">
+        <div className="w-full p-2">
           <div className="card lg:card-side bg-white shadow-xl">
-            <figure>
-              <Image
-                src="https://placeimg.com/300/250/arch"
-                alt="Album"
-                width={300}
-                height={250}
-              />
-            </figure>
+            <Image
+              src="https://placeimg.com/300/250/arch"
+              alt="Album"
+              className="rounded-md mt-6 lg:mt-0 lg:rounded-none"
+              width={300}
+              height={250}
+            />
             <div className="card-body">
               <h2 className="card-title">Lorem</h2>
               <p>
@@ -75,22 +76,23 @@ const Berita = () => {
                 labore asperiores quibusdam quas. Quo, porro!
               </p>
               <div className="card-actions justify-end">
-                <button className="btn bg-amber-300 text-black">More</button>
+                <button className="btn text-black bg-amber-300  border-amber-300 hover:bg-amber-400 hover:border-amber-300">
+                  Lihat
+                </button>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="w-full p-4">
+        <div className="w-full p-2">
           <div className="card lg:card-side bg-white shadow-xl">
-            <figure>
-              <Image
-                src="https://placeimg.com/300/250/arch"
-                alt="Album"
-                width={300}
-                height={250}
-              />
-            </figure>
+            <Image
+              src="https://placeimg.com/300/250/arch"
+              alt="Album"
+              className="rounded-md mt-6 lg:mt-0 lg:rounded-none"
+              width={300}
+              height={250}
+            />
             <div className="card-body">
               <h2 className="card-title">Lorem</h2>
               <p>
@@ -98,7 +100,9 @@ const Berita = () => {
                 labore asperiores quibusdam quas. Quo, porro!
               </p>
               <div className="card-actions justify-end">
-                <button className="btn bg-amber-300 text-black">More</button>
+                <button className="btn text-black bg-amber-300  border-amber-300 hover:bg-amber-400 hover:border-amber-300">
+                  Lihat
+                </button>
               </div>
             </div>
           </div>

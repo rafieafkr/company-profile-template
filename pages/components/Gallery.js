@@ -1,5 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Image from "next/image";
 
 const Gallery = () => {
   return (
@@ -14,12 +14,10 @@ const Gallery = () => {
 
       <div className="carousel w-80 h-60 md:w-2/3 md:h-60 m-auto pt-4">
         <div id="slide1" className="carousel-item relative w-full rounded-lg">
-          <Image
+          <img
             alt="gallery"
             src="https://placeimg.com/800/200/arch"
             className="w-full rounded-lg"
-            width={800}
-            height={200}
           />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide4" className="btn btn-circle opacity-70">
@@ -31,12 +29,10 @@ const Gallery = () => {
           </div>
         </div>
         <div id="slide2" className="carousel-item relative w-full rounded-lg">
-          <Image
+          <img
             alt="gallery"
             src="https://placeimg.com/800/200/arch"
             className="w-full rounded-lg"
-            width={800}
-            height={200}
           />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide1" className="btn btn-circle opacity-70">
@@ -48,12 +44,10 @@ const Gallery = () => {
           </div>
         </div>
         <div id="slide3" className="carousel-item relative w-full rounded-lg">
-          <Image
+          <img
             alt="gallery"
             src="https://placeimg.com/800/200/arch"
             className="w-full rounded-lg"
-            width={800}
-            height={200}
           />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide2" className="btn btn-circle opacity-70">
@@ -65,12 +59,10 @@ const Gallery = () => {
           </div>
         </div>
         <div id="slide4" className="carousel-item relative w-full rounded-lg">
-          <Image
+          <img
             alt="gallery"
             src="https://placeimg.com/800/200/arch"
             className="w-full rounded-lg"
-            width={800}
-            height={200}
           />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide3" className="btn btn-circle opacity-70">

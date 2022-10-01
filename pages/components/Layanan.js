@@ -1,7 +1,133 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
+import { gsap } from "gsap/dist/gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 const Layanan = () => {
+  gsap.registerPlugin(ScrollTrigger);
+  useEffect(() => {
+    gsap.fromTo(
+      ".illustration",
+      {
+        scrollTrigger: ".illustration",
+        opacity: 0,
+        delay: 0.5,
+        y: 100,
+      },
+      {
+        scrollTrigger: {
+          trigger: ".illustration",
+          toggleActions: "restart none reverse none",
+          end: "bottom, 700px",
+        },
+        opacity: 1,
+        duration: 1,
+        delay: 0.5,
+        y: 0,
+      }
+    );
+
+    gsap.fromTo(
+      ".judul-layanan",
+      {
+        scrollTrigger: ".judul-layanan",
+        opacity: 0,
+        y: 100,
+      },
+      {
+        scrollTrigger: {
+          trigger: ".judul-layanan",
+          end: "bottom, 700px",
+        },
+        opacity: 1,
+        duration: 1,
+        y: 0,
+      }
+    );
+
+    gsap.fromTo(
+      ".layanan-sertifikasi",
+      {
+        scrollTrigger: ".layanan-sertifikasi",
+        opacity: 0,
+        y: 100,
+      },
+      {
+        scrollTrigger: {
+          trigger: ".layanan-sertifikasi",
+          toggleActions: "restart none reverse none",
+          end: "bottom, 700px",
+        },
+        opacity: 1,
+        duration: 1,
+        y: 0,
+      }
+    );
+
+    gsap.fromTo(
+      ".layanan-digital-marketing",
+      {
+        scrollTrigger: ".layanan-digital-marketing",
+        opacity: 0,
+        delay: 0.3,
+        y: 100,
+      },
+      {
+        scrollTrigger: {
+          trigger: ".layanan-digital-marketing",
+          toggleActions: "restart none reverse none",
+          end: "bottom, 700px",
+        },
+        opacity: 1,
+        duration: 1,
+        delay: 0.3,
+        y: 0,
+      }
+    );
+
+    gsap.fromTo(
+      ".layanan-konsultasi",
+      {
+        scrollTrigger: ".layanan-konsultasi",
+        opacity: 0,
+        delay: 0.5,
+        y: 100,
+      },
+      {
+        scrollTrigger: {
+          trigger: ".layanan-konsultasi",
+          toggleActions: "restart none reverse none",
+          end: "bottom, 700px",
+        },
+        opacity: 1,
+        duration: 1,
+        delay: 0.5,
+        y: 0,
+      }
+    );
+
+    gsap.fromTo(
+      ".layanan-pelatihan",
+      {
+        scrollTrigger: ".layanan-pelatihan",
+        opacity: 0,
+        delay: 0.7,
+        y: 100,
+      },
+      {
+        scrollTrigger: {
+          trigger: ".layanan-pelatihan",
+          toggleActions: "restart none reverse none",
+          end: "bottom, 700px",
+        },
+        opacity: 1,
+        duration: 1,
+        delay: 0.7,
+        y: 0,
+      }
+    );
+  }, []);
+
   return (
     <div className="bg-white dark:bg-slate-700">
       {/* Intro Section */}
@@ -30,7 +156,7 @@ const Layanan = () => {
 
       {/* Layanan */}
       <div className="pt-20 px-5" id="layanan">
-        <div className="text-center mb-6">
+        <div className="text-center mb-6 judul-layanan">
           <h1 className="w-full text-5xl font-bold pb-3">Layanan</h1>
           <p className="font-light">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ab
@@ -41,7 +167,7 @@ const Layanan = () => {
           <div className="grid md:gap-7 md:grid-cols-6 md:grid-rows-2 max-w-2xl">
             <div
               id="card"
-              className="mb-5 md:mb-0 max-w-full h-fit px-7 py-6 shadow-2xl bg-white col-span-3 rounded-lg"
+              className="mb-5 md:mb-0 max-w-full h-fit px-7 py-6 shadow-2xl bg-white col-span-3 rounded-lg layanan-sertifikasi"
             >
               <div className="w-full h-16 mb-2 bg-amber-300 rounded-full flex justify-center">
                 <div className="bg-white mt-1 w-14 h-14 rounded-full flex justify-center">
@@ -71,7 +197,7 @@ const Layanan = () => {
             </div>
             <div
               id="card"
-              className="mb-5 md:mb-0 max-w-full h-fit px-7 py-6 shadow-2xl bg-white col-span-3 rounded-lg"
+              className="mb-5 md:mb-0 max-w-full h-fit px-7 py-6 shadow-2xl bg-white col-span-3 rounded-lg layanan-digital-marketing"
             >
               <div className="w-full h-16 mb-2 bg-amber-300 rounded-full flex justify-center">
                 <div className="bg-white mt-1 w-14 h-14 rounded-full flex justify-center">
@@ -88,7 +214,9 @@ const Layanan = () => {
                   </svg>
                 </div>
                 <div className="ml-2 h-min mt-3">
-                  <h3 className="font-bold my-2">Digital Marketing</h3>
+                  <h3 className="font-bold my-2 text-[12px] lg:text-sm">
+                    Digital Marketing
+                  </h3>
                 </div>
               </div>
               <div>
@@ -102,7 +230,7 @@ const Layanan = () => {
             </div>
             <div
               id="card"
-              className="mb-5 h-fit md:mb-0 max-w-full px-7 py-6 shadow-2xl bg-white col-span-3 row-span-3 rounded-lg"
+              className="mb-5 h-fit md:mb-0 max-w-full px-7 py-6 shadow-2xl bg-white col-span-3 row-span-3 rounded-lg layanan-konsultasi"
             >
               <div className="w-full h-16 mb-2 bg-amber-300 rounded-full flex justify-center">
                 <div className="bg-white mt-1 w-14 h-14 rounded-full flex justify-center">
@@ -132,7 +260,7 @@ const Layanan = () => {
             </div>
             <div
               id="card"
-              className="max-w-full h-fit px-7 py-6 shadow-2xl bg-white col-span-3 row-span-2 rounded-lg"
+              className="max-w-full h-fit px-7 py-6 shadow-2xl bg-white col-span-3 row-span-2 rounded-lg layanan-pelatihan"
             >
               <div className="w-full h-16 mb-2 bg-amber-300 rounded-full flex justify-center">
                 <div className="bg-white mt-1 w-14 h-14 rounded-full flex justify-center">
@@ -159,7 +287,7 @@ const Layanan = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-full md:flex md:justify-end hidden">
+          <div className="md:w-full md:flex md:justify-end hidden relative">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink"

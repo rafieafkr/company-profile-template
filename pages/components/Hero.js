@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Hero = () => {
   return (
     <div className="Hero">
       <div
-        className="pahlawan min-h-screen"
+        className="pahlawan min-h-screen bg-fixed"
         style={{ backgroundImage: "url('images/4214558.jpg')" }}
       >
         <div className="hero-overlay bg-opacity-40"></div>
