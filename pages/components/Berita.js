@@ -1,5 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Image from "next/future/image";
 
 const Berita = () => {
   return (
@@ -14,12 +14,10 @@ const Berita = () => {
       <div className="flex flex-wrap justify-center lg:grid lg:grid-cols-2">
         <div className="w-full p-2">
           <div className="card lg:card-side bg-white shadow-xl">
-            <Image
+            <img
               src="https://placeimg.com/300/250/arch"
               alt="Album"
               className="rounded-md mt-6 lg:mt-0 lg:rounded-none"
-              width={300}
-              height={250}
             />
             <div className="card-body">
               <h2 className="card-title">Lorem</h2>
@@ -38,12 +36,10 @@ const Berita = () => {
 
         <div className="w-full p-2">
           <div className="card lg:card-side bg-white shadow-xl">
-            <Image
+            <img
               src="https://placeimg.com/300/250/arch"
               alt="Album"
               className="rounded-md mt-6 lg:mt-0 lg:rounded-none"
-              width={300}
-              height={250}
             />
             <div className="card-body">
               <h2 className="card-title">Lorem</h2>
@@ -62,12 +58,10 @@ const Berita = () => {
 
         <div className="w-full p-2">
           <div className="card lg:card-side bg-white shadow-xl">
-            <Image
+            <img
               src="https://placeimg.com/300/250/arch"
               alt="Album"
               className="rounded-md mt-6 lg:mt-0 lg:rounded-none"
-              width={300}
-              height={250}
             />
             <div className="card-body">
               <h2 className="card-title">Lorem</h2>
@@ -86,12 +80,10 @@ const Berita = () => {
 
         <div className="w-full p-2">
           <div className="card lg:card-side bg-white shadow-xl">
-            <Image
+            <img
               src="https://placeimg.com/300/250/arch"
               alt="Album"
               className="rounded-md mt-6 lg:mt-0 lg:rounded-none"
-              width={300}
-              height={250}
             />
             <div className="card-body">
               <h2 className="card-title">Lorem</h2>
