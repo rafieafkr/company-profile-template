@@ -83,8 +83,9 @@ const Navbar = () => {
               </li>
               <li tabIndex="0">
                 <a>
+                  Sosial Media
                   <svg
-                    className="fill-current rotate-180"
+                    className="fill-current rotate-90"
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
@@ -92,9 +93,8 @@ const Navbar = () => {
                   >
                     <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
                   </svg>
-                  Sosial Media
                 </a>
-                <ul className="absolute top-0 -left-28 p-2 dark:bg-slate-700">
+                <ul className="absolute left-[90px] top-[90px] p-2 bg-white dark:bg-slate-700">
                   <li>
                     <a>Instagram</a>
                   </li>
