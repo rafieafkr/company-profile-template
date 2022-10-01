@@ -94,7 +94,7 @@ const Navbar = () => {
                   </svg>
                   Sosial Media
                 </a>
-                <ul className="absolute top-0 -left-28 p-2 bg-white">
+                <ul className="absolute top-0 -left-28 p-2 dark:bg-slate-700">
                   <li>
                     <a>Instagram</a>
                   </li>
