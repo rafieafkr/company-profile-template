@@ -17,7 +17,7 @@ const Berita = () => {
             <img
               src="https://placeimg.com/300/250/arch"
               alt="Album"
-              className="rounded-md mt-6 lg:mt-0 lg:rounded-none"
+              className="rounded-md lg:mt-0 lg:rounded-none"
             />
             <div className="card-body">
               <h2 className="card-title">Lorem</h2>
@@ -39,7 +39,7 @@ const Berita = () => {
             <img
               src="https://placeimg.com/300/250/arch"
               alt="Album"
-              className="rounded-md mt-6 lg:mt-0 lg:rounded-none"
+              className="rounded-md lg:mt-0 lg:rounded-none"
             />
             <div className="card-body">
               <h2 className="card-title">Lorem</h2>
@@ -61,7 +61,7 @@ const Berita = () => {
             <img
               src="https://placeimg.com/300/250/arch"
               alt="Album"
-              className="rounded-md mt-6 lg:mt-0 lg:rounded-none"
+              className="rounded-md lg:mt-0 lg:rounded-none"
             />
             <div className="card-body">
               <h2 className="card-title">Lorem</h2>
@@ -83,7 +83,7 @@ const Berita = () => {
             <img
               src="https://placeimg.com/300/250/arch"
               alt="Album"
-              className="rounded-md mt-6 lg:mt-0 lg:rounded-none"
+              className="rounded-md lg:mt-0 lg:rounded-none"
             />
             <div className="card-body">
               <h2 className="card-title">Lorem</h2>
